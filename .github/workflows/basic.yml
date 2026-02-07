@@ -17,6 +17,9 @@ jobs:
       - name: Print current directory
         run: pwd
 
+      - name: List files in the directory
+        run: ls -la
+
       - name: Print all environment variables
         run: env
 
