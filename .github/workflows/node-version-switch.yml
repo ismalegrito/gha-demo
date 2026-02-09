@@ -12,11 +12,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: List files in the directory
+        run: ls -la
       - name: Check where Node.js version
         run: whereis node
       - name: Check current Node.js version
         run: node --version
-
+      - name: Checkout code
+        uses: actions/checkout@v6
       - name: Switch Node.js version
         uses: actions/setup-node@v6
         with:
