@@ -21,7 +21,7 @@ jobs:
         run: ls -la
 
       - name: Print directory tree
-        run: tree
+        run: tree -L 2
 
       - name: Print all environment variables
         run: env

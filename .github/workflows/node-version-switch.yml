@@ -1,0 +1,34 @@
+name: Node.js Version Validation
+run-name: ${{ github.workflow }} - ${{ github.ref }} - ${{ github.actor }}
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate-node-version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check where Node.js version
+        run: whereis node
+      - name: Check current Node.js version
+        run: node --version
+
+      - name: Switch Node.js version
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: '.node-version'
+
+      - name: Verify new Node.js version
+        run: node --version
+
+      - name: Switch Node.js version
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Verify new Node.js version
+        run: node --version
