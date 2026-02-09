@@ -1,26 +1,29 @@
-What is Prompt ?
-A prompt is essentially a natural language request, question, instruction, or even a combination of these that you give to an AI model.
+# What is Prompt?
 
-Copilot prompts are instructions or questions you use to tell Copilot what you want. Prompts can include four parts: the goal, context, expectations, and source.
+A **prompt** is essentially a natural language request, question, instruction, or even a combination of these that you give to an AI model.
 
-Goal
+Copilot prompts are instructions or questions you use to tell Copilot what you want. Prompts can include four parts: the **goal**, **context**, **expectations**, and **source**.
+
+## Goal
 What do you want from Copilot?
 
-Ex:- I want a list of 3-5 Bullet Points to prepare me.
+**Example:**
+> I want a list of 3-5 bullet points to prepare me.
 
-Context
+## Context
 Why do you need it, and who is involved?
 
-Ex:- I want a list of 3-5 Bullet Points to prepare me for an upcoming meeting with [client], focusing on their current state and what they are looking to achieve.
+**Example:**
+> I want a list of 3-5 bullet points to prepare me for an upcoming meeting with [client], focusing on their current state and what they are looking to achieve.
 
-Expectations
-How should copilot respnd to best fulfill you request ?
+## Expectations
+How should Copilot respond to best fulfill your request?
 
-Ex:- I want a list of 3-5 Bullet Points to prepare me for an upcoming meeting with [client], focusing on their current state and what they are looking to achieve. Respond with a tone that is freindly but authoritative
+**Example:**
+> I want a list of 3-5 bullet points to prepare me for an upcoming meeting with [client], focusing on their current state and what they are looking to achieve. Respond with a tone that is friendly but authoritative.
 
-Source
-What information or samples do you want copilot to use?
+## Source
+What information or samples do you want Copilot to use?
 
-
-Ex:- I want a list of 3-5 Bullet Points to prepare me for an upcoming meeting with [client], focusing on their current state and what they are looking to achieve. Respond with a tone that is freindly but authoritative . And Focus on email and teams chats with [people] over the last two weeks.
-
+**Example:**
+> I want a list of 3-5 bullet points to prepare me for an upcoming meeting with [client], focusing on their current state and what they are looking to achieve. Respond with a tone that is friendly but authoritative. Focus on email and Teams chats with [people] over the last two weeks.
